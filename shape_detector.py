@@ -34,7 +34,7 @@ class ShapeDetector:
             shape = "square" if ar >= 0.95 and ar <= 1.05 else "rectangle"
 
             #Always make the shape square; I realized that the dataset is designed like this!
-            shape = "square"
+            #shape = "square"
 
         # otherwise, we assume the shape is a circle
         else:
