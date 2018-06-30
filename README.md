@@ -1,12 +1,9 @@
-# Shape Recognition Challenge
-
-## Deadline
-You have 48 hours to solve this challenge (from the time you received this document). Please keep in mind that a solution to this problem can be implemented in a handful of hours but the idea is to give you extra time in case you want to go further.
+# Shape Recognition
 
 ## Goal
 The goal is to implement an algorithm to recognise and count the number of occurrence of three different shapes (i.e. square, circle, triangle) in a given image.
 
-Your algorithm must take an image path as input:
+The algorithm takes an image path as input:
 ```
 cool_algorithm.py <image path string>
 ```
@@ -15,30 +12,6 @@ And return three integers separated with commas (in a string) as output:
 <int>,<int>,<int>
 ```
 Where the first integer corresponds to the number of **squares** in the image, the second integer corresponds to the number of **circles**, and the third integer corresponds to the number of **triangles**.
-
-Example:
-Using the following image as input:
-```
-cool_algorithm.py ./training_data/example_image.jpg
-```
-Expected output:
-```
-3,1,2
-```
-When the image contains 3 squares, 1 circle, and 2 triangles.
-
-## Restrictions
-There are no restrictions on the approach to use to solve this problem and you are free to use the method of your choice (e.g. hard-coded logic, image processing heuristics, shallow machine learning, deep learning, etc). The only restriction is to implement your algorithm using Python and you are only allowed the use the following set of libraries since we want to be able to run your code at the end.
-* Numpy
-* OpenCV2
-* Pillow
-* Scipy
-* Scikit-learn
-* NLTK
-* Keras
-* Tensorflow
-* PyTorch
-* Theano
 
 ## Dataset
 In order to help you implement this algorithm, you can find 5000 annotated examples in the folder named training_data. The folder contains:
@@ -61,3 +34,16 @@ To hand-in your solution, please send an archive or a link to an archive (e.g. d
 By email to tony@uizard.io with the subject “Shape Recognition Challenge”. The total size of your solution must not exceed 950 MB.
 
 Good luck and have fun! :)
+
+
+## References
+- Tried image denoising, but didn't work well:
+http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html
+
+- Tried Canny edge detection didn't work well:
+http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html
+
+- tried the lovcal mean also, didn't work well:
+http://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Non-local_Means_Denoising_Algorithm_Noise_Reduction.php
+
+- 
