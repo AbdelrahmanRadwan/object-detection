@@ -11,8 +11,8 @@ def get_contours(image, median_size=5):
     """
     :param image: The original image, in which you wanna reduce the noise.
     :param median_size: the matrix dimensions of the median filter
-    :return: numpy array includes the contous in this image
-    :draw: the original image with the contous detected and drawn on it
+    :return: numpy array includes the contours in this image
+    :draw: the original image with the contours detected and drawn on it
     """
     image_with_noise = image
     image = preprocess(image, median_size)
