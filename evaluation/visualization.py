@@ -1,10 +1,17 @@
 """
 A simple visualization tool, to track the updates and changes in the pictures
 """
+import argparse
+
 import cv2
 import numpy as np
 
-image_url = '../training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg'
+# Reading the image!
+#[BY deafault it gonna use one of the images in the data_set now as an example if you didn't specify any.
+argument_parser = argparse.ArgumentParser()
+argument_parser.add_argument('-i', '--image', required=False, help='Path to the input image')
+args = vars(argument_parser.parse_args())
+image_url = args['image'] or '../training_data/00192660018343-00142D3-001799F-0019496-0013ABD001761D0012FC3.jpg'
 image = cv2.imread(image_url)
 
 image_plot1 = image.copy()
