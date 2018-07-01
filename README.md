@@ -21,18 +21,47 @@ Where the first integer corresponds to the number of **squares** in the image, t
 
 💫 **Version 0.1 out now!**
 
-.. image:: https://opencv.org/assets/theme/logo.png?style=flat-square&logo=travis
+image:: https://opencv.org/assets/theme/logo.png?style=flat-square&logo=travis
     :target: https://opencv.org/
     :alt: Using OpenCV
 
-.. image:: https://www.python.org/static/img/python-logo.png
+image:: https://www.python.org/static/img/python-logo.png
     :target: https://www.python.org/
     :alt: Python 3
+
+   
+   
+💫 **Version 2.0 out now!** `Check out the new features here. <https://spacy.io/usage/v2>`_
 
 .. image:: https://img.shields.io/travis/explosion/spaCy/master.svg?style=flat-square&logo=travis
     :target: https://travis-ci.org/explosion/spaCy
     :alt: Build Status
-   
+
+.. image:: https://img.shields.io/appveyor/ci/explosion/spaCy/master.svg?style=flat-square&logo=appveyor
+    :target: https://ci.appveyor.com/project/explosion/spaCy
+    :alt: Appveyor Build Status
+
+.. image:: https://img.shields.io/github/release/explosion/spacy.svg?style=flat-square
+    :target: https://github.com/explosion/spaCy/releases
+    :alt: Current Release Version
+
+.. image:: https://img.shields.io/pypi/v/spacy.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/spacy
+    :alt: pypi Version
+
+.. image:: https://img.shields.io/conda/vn/conda-forge/spacy.svg?style=flat-square
+    :target: https://anaconda.org/conda-forge/spacy
+    :alt: conda Version
+
+.. image:: https://img.shields.io/badge/chat-join%20%E2%86%92-09a3d5.svg?style=flat-square&logo=gitter-white
+    :target: https://gitter.im/explosion/spaCy
+    :alt: spaCy on Gitter
+
+.. image:: https://img.shields.io/twitter/follow/spacy_io.svg?style=social&label=Follow
+    :target: https://twitter.com/spacy_io
+    :alt: spaCy on Twitter
+    
+    
 📖 Documentation
 ================
 
