@@ -10,7 +10,7 @@
 
 ![Example 5](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/example5.png  "Example 5")
 
-A tool used for recognizing and counting the number of occurrences of four different shapes (i.e. square, rectangle, circle, triangle) in a given image. [Easily scalable in terms of new shapes]
+A tool used for recognizing and counting the number of occurrences of four different shapes (i.e. square, rectangle, circle, triangle) in a given image. _[Easily scalable in terms of new shapes]_
 
 The tool takes an image path as input and returns three comma separated integers as output:
 ```
