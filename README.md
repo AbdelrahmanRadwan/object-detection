@@ -1,7 +1,7 @@
 # Shape Recognition
 
-![Example 1](https://raw.github.com/AbdelrahmanRadwan/object-detection/tree/master/evaluation/example2.png  "Example 2")
-![Example 2](https://raw.github.com/AbdelrahmanRadwan/object-detection/tree/master/evaluation/example1.png  "Example 1")
+![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/evaluation/example1.png  "Example 2")
+![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/evaluation/example2.png  "Example 1")
 A tool used for recognising and counting the number of occurrences
  of three different shapes (i.e. square, circle, triangle) in a given image. 
  [Easily scalable in terms of new shapes]
