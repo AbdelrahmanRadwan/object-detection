@@ -1,7 +1,10 @@
 # Shape Recognition
 
-![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/evaluation/example1.png  "Example 2")
-![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/evaluation/example2.png  "Example 1")
+![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/example1.png  "Example 1")
+
+![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/example2.png  "Example 2")
+
+
 A tool used for recognising and counting the number of occurrences
  of three different shapes (i.e. square, circle, triangle) in a given image. 
  [Easily scalable in terms of new shapes]
@@ -21,7 +24,7 @@ python3 shapes_counter.py -i <image_path>
 ```
 ##### example:
 ```bash
-python3 shapes_counter.py -i training_data/001EE370015D7B-001B514-001AF1A-001D2BD-001E41B001061C001D292.jpg
+python3 shapes_counter.py -i training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg
 ```
 
 ## Algorithm
@@ -33,7 +36,19 @@ python3 shapes_counter.py -i training_data/001EE370015D7B-001B514-001AF1A-001D2B
 6. Count the shapes occupancies and print the numbers, comma separated.
 
 ## Results
+The results are not bad at all! a lot of test cases gonna be true, the algorithm can pass a lot of corner cases.
 
+![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1")
+![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")
+![Example 3](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/3.png  "Example 3")
+![Example 4](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/4.png  "Example 4")
+![Example 5](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/5.png  "Example 5")
+![Example 6](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/6.png  "Example 6")
+![Example 7](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/7.png  "Example 7")
+![Example 8](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/8.png  "Example 8")
+
+
+On the other side, the algorithm fails sometimes in the pics with small shapes (very small) or the unioned shapes.
 
 ## Furthur work
 1. 
