@@ -63,5 +63,6 @@ def count_shapes(image, median_size=5):
     cv2.destroyAllWindows()
 
 image_url = '../training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg'
+
 image = cv2.imread(image_url)
 count_shapes(image, 7)
