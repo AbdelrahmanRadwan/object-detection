@@ -1,4 +1,5 @@
 # Shape Recognition
+*******************
 
 ![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/example1.png  "Example 1")
 
@@ -18,7 +19,22 @@ The tool takes an image path as input and returns three comma separated integers
 ```
 Where the first integer corresponds to the number of **squares** in the image, the second integer corresponds to the number of **circles**, and the third integer corresponds to the number of **triangles**.
 
+💫 **Version 0.1 out now!**
+
+.. image:: https://opencv.org/assets/theme/logo.png
+    :target: https://opencv.org/
+    :alt: Using OpenCV
+
+
+.. image:: https://www.python.org/static/img/python-logo.png
+    :target: https://www.python.org/
+    :alt: Python 3
+
+📖 Documentation
+================
+
 ## How to Run
+=============
 Install the requirements:
 ```bash
 pip3 install -r requirements.txt 
@@ -28,6 +44,7 @@ pip3 install -r requirements.txt
 python3 shapes_counter.py -i <image_path>
 ```
 ##### example:
+==============
 ```bash
 python3 shapes_counter.py -i training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg
 ```
@@ -36,11 +53,13 @@ and you can also run **the visualization tool** with any image to see the visual
 python3 evaluation/visualization.py  -i <image_path>
 ```
 #### example:
+=============
 ```bash
 python3 evaluation/visualization.py  -i training_data/00170820010925-001146F-0011FF9-001E987-0019C5D001A322001AEF8.jpg
 ```
 
 ## Algorithm
+=============
 I'm using simple image processing techniques using OpenCV-Python, the algorithm steps:
 1. Do image pre-processing and reduce the noise.
 2. Select the contours from the image.
@@ -54,6 +73,7 @@ I tried to use a training dataset of a lot of labeled pictures, but I had two is
 2. I didn't find a lot of papers discussing geometric shapes recognition using machine learning and advanced models, most of them are using contours detection and edge detection.
  
 ## Results
+==========
 The results are not bad at all! a lot of test cases gonna be true, the algorithm can pass a lot of corner cases.
 
 ![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1") ![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")
@@ -81,6 +101,7 @@ The results are not bad at all! a lot of test cases gonna be true, the algorithm
 
 
 ## Further work
+===============
 1. As a post-processing step, we need to sharpen the shapes after the pre-processing phase, to avoid minimizing the shape which leads to unrecognizable shape with hard to detect edges.
 2. As a post-processing step, we need to separate the shapes from each other and from the borders if they are hardly connected together.
 
