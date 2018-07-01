@@ -1,5 +1,14 @@
 # Shape Recognition
 
+## How to Run
+```
+python3 shapes_counter.py -i <image_path>
+```
+#### example:
+```bash
+python3 shapes_counter.py -i training_data/001EE370015D7B-001B514-001AF1A-001D2BD-001E41B001061C001D292.jpg
+```
+
 ## Goal
 The goal is to implement an algorithm to recognise and count the number of occurrence of three different shapes (i.e. square, circle, triangle) in a given image.
 
