@@ -68,7 +68,7 @@ I tried to use a training dataset of a lot of labeled pictures, but I had two is
 
 The results are not bad at all! a lot of test cases gonna be true, the algorithm can pass a lot of corner cases.
 
-                                                                                                            |  
+Examples                                                                                                    |  Examples 
 :----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:
 ![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1")  |  ![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")
 ![Example 3](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/3.png  "Example 3")  |  ![Example 4](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/4.png  "Example 4")
