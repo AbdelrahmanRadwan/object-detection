@@ -68,18 +68,22 @@ I tried to use a training dataset of a lot of labeled pictures, but I had two is
 
 The results are not bad at all! a lot of test cases gonna be true, the algorithm can pass a lot of corner cases.
 
-![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1")  ![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")
-![Example 3](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/3.png  "Example 3")      ![Example 4](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/4.png  "Example 4")
-![Example 5](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/5.png  "Example 5")   ![Example 6](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/6.png  "Example 6")
-![Example 7](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/7.png  "Example 7")    ![Example 8](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/8.png  "Example 8")
+:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:
+|![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1") | ![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")|
+|![Example 3](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/3.png  "Example 3") | ![Example 4](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/4.png  "Example 4")|
+|![Example 5](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/5.png  "Example 5") | ![Example 6](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/6.png  "Example 6")|
+|![Example 7](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/7.png  "Example 7") | ![Example 8](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/8.png  "Example 8")|
+:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:
 
+## Comparison
 
-Original Image             |  Resultant Image
-:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:
-![Example 1-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare1-1.png  "Example 1-1")  |  ![Example 1-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare1-2.png  "Example 1-2")  
-![Example 2-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare2-1.png  "Example 2-1")  |  ![Example 2-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare2-2.png  "Example 2-2")  
-![Example 3-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare3-1.png  "Example 3-1")  |  ![Example 3-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare3-2.png  "Example 3-2")  
-![Example 4-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare4-1.png  "Example 4-1")  |  ![Example 4-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare4-2.png  "Example 4-2")  
+Original Image                                                                                                            |  Resultant Image
+:------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:
+|![Example 1-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare1-1.png  "Example 1-1")  |  ![Example 1-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare1-2.png  "Example 1-2")|  
+|![Example 2-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare2-1.png  "Example 2-1")  |  ![Example 2-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare2-2.png  "Example 2-2")| 
+|![Example 3-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare3-1.png  "Example 3-1")  |  ![Example 3-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare3-2.png  "Example 3-2")| 
+|![Example 4-1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare4-1.png  "Example 4-1")  |  ![Example 4-2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/compare4-2.png  "Example 4-2")| 
+:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:
 
 
 
