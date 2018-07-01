@@ -4,7 +4,7 @@ A simple visualization tool, to track the updates and changes in the pictures
 import cv2
 import numpy as np
 
-image_url = '../training_data/001A0A700122E3-001D292-0017D19-001F7A8-00143EE001FF85001BB81.jpg'
+image_url = '../training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg'
 image = cv2.imread(image_url)
 
 image_plot1 = image.copy()
@@ -75,11 +75,11 @@ def count_shapes(image, median_size=5):
                          -1, (0, 255, 0), 2)
         cv2.putText(image, shape, (contourX, contourY),
                     cv2.FONT_HERSHEY_SIMPLEX,
-                    0.5, (255, 255, 255), 2)
+                    0.5, (255, 0, 0), 2)
     image_plot6 = image.copy()
 
 
-count_shapes(image)
+count_shapes(image, 7)
 image_plot1 = cv2.resize(image_plot1, (0, 0), None, .75, .75)
 image_plot2 = cv2.resize(image_plot2, (0, 0), None, .75, .75)
 image_plot3 = cv2.resize(image_plot3, (0, 0), None, .75, .75)

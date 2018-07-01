@@ -54,7 +54,7 @@ def count_shapes(image, median_size=5):
                          -1, (0, 255, 0), 2)
         cv2.putText(image, shape, (contourX, contourY),
                     cv2.FONT_HERSHEY_SIMPLEX,
-                    0.5, (255, 255, 255), 2)
+                    0.5, (255, 0, 0), 2)
 
     print("squares: %d,\ncircles: %d,\ntriangle: %d"
           % (shapes["square"], shapes["circle"], shapes["triangle"]))
@@ -62,6 +62,6 @@ def count_shapes(image, median_size=5):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-image_url = '../training_data/001A2EA001C419-001AB61-0019243-00185FC-00165190019BB9001E505.jpg'
+image_url = '../training_data/001979900122A9-0017558-00101E4-001F3DE-00118C8001FC1B0016C37.jpg'
 image = cv2.imread(image_url)
-count_shapes(image)
+count_shapes(image, 7)

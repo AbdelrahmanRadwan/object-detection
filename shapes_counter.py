@@ -24,7 +24,7 @@ def main():
     image = cv2.imread(args['image'])
     #image = cv2.imread('training_data/001EE370015D7B-001B514-001AF1A-001D2BD-001E41B001061C001D292.jpg')
 
-    count_shapes(image)
+    count_shapes(image, 7)
 
 
 def count_shapes(image, median_size=5):
@@ -68,7 +68,7 @@ def count_shapes(image, median_size=5):
                          -1, (0, 255, 0), 2)
         cv2.putText(image, shape, (contourX, contourY),
                     cv2.FONT_HERSHEY_SIMPLEX,
-                    0.5, (255, 255, 255), 2)
+                    0.5, (255, 0, 0), 2)
 
     print("%d,%d,%d" % (shapes["square"], shapes["circle"], shapes["triangle"]))
     cv2.imshow('img', image)
