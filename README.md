@@ -71,15 +71,20 @@ The results are not bad at all! a lot of test cases gonna be true, the algorithm
 Example 1                                                                                                   |  Example 2 
 :----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:
 ![Example 1](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/1.png  "Example 1")  |  ![Example 2](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/2.png  "Example 2")
+
 Example 3                                                                                                   |  Example 4 
 :----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:
 ![Example 3](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/3.png  "Example 3")  |  ![Example 4](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/4.png  "Example 4")
+
+
 Example 5                                                                                                   |  Example 5 
 :----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:
 ![Example 5](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/5.png  "Example 5")  |  ![Example 6](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/6.png  "Example 6")
+
 Example 7                                                                                                   |  Example 8 
 :----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:
 ![Example 7](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/7.png  "Example 7")  |  ![Example 8](https://github.com/AbdelrahmanRadwan/object-detection/blob/master/results/8.png  "Example 8")
+
 
 ## Comparison
 
