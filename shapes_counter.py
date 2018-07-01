@@ -9,12 +9,21 @@ It takes the image url from the console, and go through the shapes counting phas
 6. Count the shapes occupancies and print the numbers, comma separated.
 """
 
+import argparse
+
 import cv2
 from contours_detection import get_contours
 from shape_detector import ShapeDetector
 
+
 def main():
-    image = cv2.imread('training_data/001EE370015D7B-001B514-001AF1A-001D2BD-001E41B001061C001D292.jpg')
+    argument_parser = argparse.ArgumentParser()
+    argument_parser.add_argument('-i', '--image', required=True, help='Path to the input image')
+    args = vars(argument_parser.parse_args())
+
+    image = cv2.imread(args['image'])
+    #image = cv2.imread('training_data/001EE370015D7B-001B514-001AF1A-001D2BD-001E41B001061C001D292.jpg')
+
     count_shapes(image)
 
 
@@ -66,4 +75,6 @@ def count_shapes(image, median_size=5):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-main()
+
+if __name__ == "__main__":
+    main()
