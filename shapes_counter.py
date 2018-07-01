@@ -29,7 +29,8 @@ def count_shapes(image, median_size=5):
     shapes = {
         "square": 0,
         "circle": 0,
-        "triangle": 0
+        "triangle": 0,
+        "rectangle": 0
     }
 
     shape_detector = ShapeDetector()
