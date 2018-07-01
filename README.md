@@ -73,6 +73,8 @@ The results are not bad at all! a lot of test cases gonna be true, the algorithm
 2. With the unioned shapes.
 3. With objects on the image boarders.
 
+**I run with more than one experiment before reaching this accuracy:**
+
 - Tried [image denoising](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_photo/py_non_local_means/py_non_local_means.html), but didn't work well:
 
 - Tried [Canny edge detection](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html), didn't work well:
