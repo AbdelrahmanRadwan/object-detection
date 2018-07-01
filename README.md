@@ -62,7 +62,7 @@ I'm using simple image processing techniques using OpenCV-Python, the algorithm 
 
 I tried to use a training dataset of a lot of labeled pictures, but I had two issues:
 1. The labeling technique seems to be not so useful for me; as if I know exactly the shapes in the picture but I don't know their places, then I can not use this info.
-2. I didn't find a lot of papers discussing geometric shapes recognition using machine learning and advanced models, most of them are using contours detection and edge detection.
+2. I didn't find a lot of free papers discussing 2D geometric shapes recognition using machine learning and advanced models, most of them are using contours detection and edge detection.
  
 ## Results
 
@@ -96,4 +96,6 @@ The results are not bad at all! a lot of test cases gonna be true, the algorithm
 
 1. As a post-processing step, we need to sharpen the shapes after the pre-processing phase, to avoid minimizing the shape which leads to unrecognizable shape with hard to detect edges.
 2. As a post-processing step, we need to separate the shapes from each other and from the borders if they are hardly connected together.
+3. Try using [Lattice-Computing (LC) Techniques](http://robotics.pme.duth.gr/amanatiadis/wp-content/uploads/2011/09/sj24KabPA43.pdf) to enhance the results.
+4. Try [Neural Network to detect 2D shapes in images using a GANN approach](https://github.com/alexvlis/Shape-Recognition), This combines the heuristic approach of a Genetic Algorithm, and the precision of gradient descent, to reach optimum convergence.
 
