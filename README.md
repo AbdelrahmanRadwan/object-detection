@@ -120,4 +120,4 @@ Original Image                                                                  
 2. As a post-processing step, we need to separate the shapes from each other and from the borders if they are hardly connected together.
 3. Try using [Lattice-Computing (LC) Techniques](http://robotics.pme.duth.gr/amanatiadis/wp-content/uploads/2011/09/sj24KabPA43.pdf) to enhance the results.
 4. Try [Neural Network to detect 2D shapes in images using a GANN approach](https://github.com/alexvlis/Shape-Recognition), This combines the heuristic approach of a Genetic Algorithm, and the precision of gradient descent, to reach optimum convergence.
-
+5. Use [PIL](https://www.sitepoint.com/manipulating-images-with-the-python-imaging-library/) for preprocessing.  
